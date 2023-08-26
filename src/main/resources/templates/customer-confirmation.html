@@ -8,6 +8,9 @@
 	</head>
 	<body>
 		The Customer is Confirmed: <span th:text="${customer.firstName + ' ' + customer.lastName}" />
+		<br><br>
+		Free Passes: <span th:text="${customer.freePasses}" />
+		<br><br>
 		<p th:text="'The Customer is Confirmed: ' + ${customer.firstName + ' ' + customer.lastName}" class="funny" />
 	</body>
 </html>
